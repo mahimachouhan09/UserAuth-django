@@ -15,20 +15,20 @@ used python , django, database - mysql
 __UserAuth__ <br>
  |<br>
  +-- templates <br>
- |  |<br>
- |  +-- base.html <br>
- |  +-- index.html <br>
- |  +-- account <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      | <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- change_password.html <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- login.html <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_complete.html <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_confirm.html <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_done.html <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_email.html <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset.html <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- profile_update.html <br>
- | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- signup.html <br>
+ |&nbsp;&nbsp;&nbsp;  |<br>
+ |&nbsp;&nbsp;&nbsp;  +-- base.html <br>
+ |&nbsp;&nbsp;&nbsp;  +-- index.html <br>
+ |&nbsp;&nbsp;&nbsp;  +-- account <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      | <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- change_password.html <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- login.html <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_complete.html <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_confirm.html <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_done.html <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_email.html <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset.html <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- profile_update.html <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- signup.html <br>
  |    
  +-- UserAuth <br>
  | &nbsp;&nbsp;&nbsp; |  <br>
