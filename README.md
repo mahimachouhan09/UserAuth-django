@@ -59,3 +59,55 @@ __UserAuth__ <br>
  +--- db.sqlite3 <br>
  |
  +--- manage.py
+ 
+ # Running Locally
+
+First, clone the repository to your local machine:
+
+```
+git clone https://github.com/mahimachouhan09/UserAuth-django
+
+cd web-scraper
+```
+
+Install the requirements:
+
+```
+pip install -r requirements/dev.txt
+```
+
+
+Create the .env file to the root directory of the project.
+You can refer this example file-
+ 
+### [.env.example](./.env.example) 
+
+
+Apply the database migrations:
+
+```
+python manage.py migrate
+```
+
+Apply the makemigrations:
+
+```
+python manage.py makemigrations
+```
+Create administrator/super user:
+```
+python manage.py createsuperuser 
+
+
+Note: It will prompt to enter username, email and password one by one. Please remember the username and password,
+it will be used to login admin area or to hit an API to scrap/refresh the linkedin profiles.
+```
+
+
+Finally, run the development server:
+
+```
+python manage.py runserver
+```
+
+` The site will be available at 127.0.0.1:8000. `
