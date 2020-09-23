@@ -8,10 +8,10 @@ build a user authentication and authorization:
 - update password
 - profile update
 
-#Technology Used
+# Technology-Used
 used python , django, database - mysql
 
-#Project structure
+# Project structure
 UserAuth
  |
  +-- templates
