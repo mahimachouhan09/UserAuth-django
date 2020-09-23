@@ -21,13 +21,15 @@ class CustomSignupForm(SignupForm):
         password = self.cleaned_data.get('password')
         confirm_password = self.cleaned_data.get('confirm_password')
         if password and password != confirm_password:
-            self._errors['password'] = self.error_class(['Passwords don\'t match'])
+            self._errors['password'] = self.error_class(
+                ['Passwords don\'t match']
+                )
         return self.cleaned_data
 
 
 class MyCustomLoginForm(LoginForm):
 
-    username = forms.CharField(max_length = 100)
+    username = forms.CharField(max_length=100)
     password = forms.CharField(max_length=32, widget=forms.PasswordInput)
 
     def login(self, *args, **kwargs):

@@ -1,13 +1,16 @@
-from django.shortcuts import render, redirect, HttpResponse, HttpResponseRedirect
+from allauth.account.forms import ChangePasswordForm, SignupForm, LoginForm
 from django.contrib.auth.models import User
-from django.urls import reverse
 from django.contrib.auth import authenticate, update_session_auth_hash
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth import logout, login, authenticate
-from allauth.account.forms import ChangePasswordForm, SignupForm, LoginForm
-from .forms import CustomSignupForm, LoginForm, ChangePasswordForm, UpdateProfileForm, MyCustomLoginForm
+from django.shortcuts import (
+    render, redirect, HttpResponse, HttpResponseRedirect)
+from django.urls import reverse
+from .forms import (
+    CustomSignupForm, LoginForm, ChangePasswordForm,
+    UpdateProfileForm, MyCustomLoginForm)
 
 
 def view_login(request):
@@ -37,11 +40,9 @@ def signup(request):
     if request.method == 'POST':
         form = CustomSignupForm(request.POST)
         if form.is_valid():
-            # import pdb;pdb.set_trace()
             form.save(request)
-            return redirect('/')
+            return HttpResponseRedirect('/')
     else:
-        # import pdb;pdb.set_trace()
         form = CustomSignupForm()
     return render(request, 'account/signup.html', {'form': form})
 
@@ -72,7 +73,8 @@ def change_password(request):
         if form.is_valid():
             user = form.save()
             update_session_auth_hash(request, user)
-            messages.success(request, 'Your password was successfully updated!')
+            messages.success(
+                request, 'Your password was successfully updated!')
             return redirect('login')
         else:
             messages.error(request, 'Please correct the error below.')

@@ -1,3 +1,4 @@
+{% extends 'base.html' %}
 {% block content %}
 <form method="POST" action="{% url 'UserLogin:profile_update' %}" class="" >
   {% csrf_token %}

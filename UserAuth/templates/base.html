@@ -6,8 +6,12 @@
 </head>
 <body>
     <h1>My Site</h1>
+<a href="{% url 'UserLogin:signup' %}"> signup</a>
+<a href="{% url 'UserLogin:login' %}"> login</a><br>
+<a href="{% url 'UserLogin:profile_update' %}"> Update Profile / </a>
 {% if request.user.is_authenticated %}
-<a href="{% url 'UserLogin:logout' %}"> logout</a>
+<a href="{% url 'UserLogin:logout' %}"> logout / </a>
+<a href="{% url 'UserLogin:change_password' %}"> Change Password</a><br>
 {% endif %}
 
 Welcome , <br>
