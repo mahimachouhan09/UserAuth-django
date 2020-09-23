@@ -15,17 +15,22 @@ used python , django, database - mysql
 UserAuth <br>
  |
  +-- templates <br>
- | &nbsp;&nbsp |
- | &nbsp;&nbsp; +-- account
- |      |
- |      +-- 
- |
- |
- |
- |
- |
+ |  |
+ |  +-- base.html
+ |  +-- index.html
+ |  +-- account
+ | &nbsp;&nbsp;|
+ | &nbsp;&nbsp;     +-- change_password.html <br>
+ | &nbsp;&nbsp;     +-- login.html <br>
+ | &nbsp;&nbsp;     +-- password_reset_complete.html <br>
+ | &nbsp;&nbsp;     +-- password_reset_confirm.html <br>
+ | &nbsp;&nbsp;     +-- password_reset_done.html <br>
+ | &nbsp;&nbsp;     +-- password_reset_email.html <br>
+ | &nbsp;&nbsp;     +-- password_reset.html <br>
+ | &nbsp;&nbsp;     +-- profile_update.html <br>
+ | &nbsp;&nbsp;     +-- signup.html <br>
  |    
- +-- UserAuth
+ +-- UserAuth <br>
  |  |  
  | &nbsp;&nbsp; +-- __pycache__ <br>
  | &nbsp;&nbsp; +-- __init__.py <br>
@@ -33,7 +38,7 @@ UserAuth <br>
  | &nbsp;&nbsp; +-- urls.py <br>
  | &nbsp;&nbsp; +-- wsgi.py <br>
  |
- +-- UserLogin
+ +-- UserLogin <br>
  |  |  
  |&nbsp;&nbsp;  +-- __pycache__ <br>
  |&nbsp;&nbsp;  +-- migrations <br>
@@ -46,6 +51,6 @@ UserAuth <br>
  |&nbsp;&nbsp;  +-- urls.py <br>
  |&nbsp;&nbsp;  +-- views.py <br>
  |
- +-- dir 4
- |  |  
- +  |-- dir 4.1
+ +-- db.sqlite3
+ |
+ +-- manage.py
