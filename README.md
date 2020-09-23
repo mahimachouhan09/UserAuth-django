@@ -56,6 +56,6 @@ __UserAuth__ <br>
  |&nbsp;&nbsp;&nbsp;  +--- views.py <br>
  |<br>
  |
- |--- db.sqlite3 <br>
+ +--- db.sqlite3 <br>
  |
- |--- manage.py
+ +--- manage.py
