@@ -9,7 +9,10 @@ build a user authentication and authorization:
 - profile update
 
 # Technology-Used
-used python , django, database - mysql
+used 
+-python,
+-django,
+-database :- mysql
 
 # Project structure
 __UserAuth__ <br>
