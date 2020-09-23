@@ -4,6 +4,6 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('UserLogin.urls')),
+    path('', include('UserLogin.urls')),
     path('accounts/', include('allauth.urls')),
 ]
