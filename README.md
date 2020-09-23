@@ -67,7 +67,7 @@ First, clone the repository to your local machine:
 ```
 git clone https://github.com/mahimachouhan09/UserAuth-django
 
-cd web-scraper
+cd UserAuth
 ```
 
 Install the requirements:
@@ -100,7 +100,7 @@ python manage.py createsuperuser
 
 
 Note: It will prompt to enter username, email and password one by one. Please remember the username and password,
-it will be used to login admin area or to hit an API to scrap/refresh the linkedin profiles.
+it will be used to login admin area.
 ```
 
 
