@@ -10,9 +10,9 @@ build a user authentication and authorization:
 
 # Technology-Used
 used 
--python,
--django,
--database :- mysql
+- python,
+- django,
+- database :-mysql
 
 # Project structure
 __UserAuth__ <br>
