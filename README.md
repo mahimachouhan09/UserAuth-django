@@ -12,11 +12,11 @@ build a user authentication and authorization:
 used python , django, database - mysql
 
 # Project structure
-UserAuth
+UserAuth <br>
  |
- +-- templates
- |  |
- |  +-- account
+ +-- templates <br>
+ | &nbsp;&nbsp |
+ | &nbsp;&nbsp +-- account
  |      |
  |      +-- 
  |
@@ -27,24 +27,24 @@ UserAuth
  |    
  +-- UserAuth
  |  |  
- |  +-- __pycache__ <br>
- |  +-- __init__.py <br>
- |  +-- settings.py <br>
- |  +-- urls.py <br>
- |  +-- wsgi.py <br>
+ | &nbsp;&nbsp +-- __pycache__ <br>
+ | &nbsp;&nbsp +-- __init__.py <br>
+ | &nbsp;&nbsp +-- settings.py <br>
+ | &nbsp;&nbsp +-- urls.py <br>
+ | &nbsp;&nbsp +-- wsgi.py <br>
  |
  +-- UserLogin
  |  |  
- |  +-- __pycache__ <br>
- |  +-- migrations <br>
- |  +-- __init__.py <br>
- |  +-- admin.py <br>
- |  +-- app.py <br>
- |  +-- forms.py <br>
- |  +-- models.py <br>
- |  +-- tests.py <br>
- |  +-- urls.py <br>
- |  +-- views.py <br>
+ |&nbsp;&nbsp  +-- __pycache__ <br>
+ |&nbsp;&nbsp  +-- migrations <br>
+ |&nbsp;&nbsp  +-- __init__.py <br>
+ |&nbsp;&nbsp  +-- admin.py <br>
+ |&nbsp;&nbsp  +-- app.py <br>
+ |&nbsp;&nbsp  +-- forms.py <br>
+ |&nbsp;&nbsp  +-- models.py <br>
+ |&nbsp;&nbsp  +-- tests.py <br>
+ |&nbsp;&nbsp  +-- urls.py <br>
+ |&nbsp;&nbsp  +-- views.py <br>
  |
  +-- dir 4
  |  |  
