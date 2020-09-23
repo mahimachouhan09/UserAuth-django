@@ -10,8 +10,11 @@
 <a href="{% url 'UserLogin:logout' %}"> logout</a>
 {% endif %}
 
-Welcome , USERNAME :
-    {{user.username}}
+Welcome , <br>
+    USERNAME   :  {{user.username}}<br>
+    email      :  {{user.email}}<br>
+    First name :  {{user.first_name}}<br>
+    last name  :  {{user.last_name}}<br>
 <hr>
  {% block content %}
  {% endblock %}
