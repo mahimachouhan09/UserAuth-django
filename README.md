@@ -15,6 +15,15 @@ used python , django, database - mysql
 UserAuth
  |
  +-- templates
+ |  |
+ |  +-- account
+ |      |
+ |      +-- 
+ |
+ |
+ |
+ |
+ |
  |    
  +-- UserAuth
  |  |  
@@ -26,16 +35,16 @@ UserAuth
  |
  +-- UserLogin
  |  |  
- |  +-- __pycache__
- |  +-- migrations
- |  +-- __init__.py
- |  +-- admin.py
- |  +-- app.py
- |  +-- forms.py
- |  +-- models.py
- |  +-- tests.py
- |  +-- urls.py
- |  +-- views.py
+ |  +-- __pycache__ <br>
+ |  +-- migrations <br>
+ |  +-- __init__.py <br>
+ |  +-- admin.py <br>
+ |  +-- app.py <br>
+ |  +-- forms.py <br>
+ |  +-- models.py <br>
+ |  +-- tests.py <br>
+ |  +-- urls.py <br>
+ |  +-- views.py <br>
  |
  +-- dir 4
  |  |  
