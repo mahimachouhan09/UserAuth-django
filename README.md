@@ -18,11 +18,11 @@ UserAuth
  |    
  +-- UserAuth
  |  |  
- |  +-- __pycache__
- |  +-- __init__.py 
- |  +-- settings.py
- |  +-- urls.py
- |  +-- wsgi.py
+ |  +-- __pycache__ <br>
+ |  +-- __init__.py <br>
+ |  +-- settings.py <br>
+ |  +-- urls.py <br>
+ |  +-- wsgi.py <br>
  |
  +-- UserLogin
  |  |  
