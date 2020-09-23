@@ -31,7 +31,7 @@ UserAuth <br>
  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- signup.html <br>
  |    
  +-- UserAuth <br>
- |  |  <br>
+ | &nbsp;&nbsp;&nbsp; |  <br>
  | &nbsp;&nbsp;&nbsp; +-- __pycache__ <br>
  | &nbsp;&nbsp;&nbsp; +-- __init__.py <br>
  | &nbsp;&nbsp;&nbsp; +-- settings.py <br>
@@ -39,7 +39,7 @@ UserAuth <br>
  | &nbsp;&nbsp;&nbsp; +-- wsgi.py <br>
  |
  +-- UserLogin <br>
- |  |  <br>
+ |&nbsp;&nbsp;&nbsp;  |  <br>
  |&nbsp;&nbsp;&nbsp;  +-- __pycache__ <br>
  |&nbsp;&nbsp;&nbsp;  +-- migrations <br>
  |&nbsp;&nbsp;&nbsp;  +-- __init__.py <br>
@@ -51,6 +51,6 @@ UserAuth <br>
  |&nbsp;&nbsp;&nbsp;  +-- urls.py <br>
  |&nbsp;&nbsp;&nbsp;  +-- views.py <br>
  |
- +-- db.sqlite3
+ +-- db.sqlite3 <br>
  |
  +-- manage.py
