@@ -12,14 +12,14 @@ build a user authentication and authorization:
 used python , django, database - mysql
 
 # Project structure
-UserAuth <br>
+__UserAuth__ <br>
  |<br>
  +-- templates <br>
  |  |<br>
  |  +-- base.html <br>
  |  +-- index.html <br>
  |  +-- account <br>
- | &nbsp;&nbsp;| <br>
+ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      | <br>
  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- change_password.html <br>
  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- login.html <br>
  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      +-- password_reset_complete.html <br>
