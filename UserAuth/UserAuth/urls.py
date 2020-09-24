@@ -1,9 +1,10 @@
-from django.contrib import admin
 from django.conf.urls import url
-from django.contrib.auth.views import(
-    PasswordResetView, PasswordResetConfirmView,
-    PasswordResetDoneView, PasswordResetCompleteView)
-from django.urls import path, include
+from django.contrib import admin
+from django.contrib.auth.views import (PasswordResetCompleteView,
+                                       PasswordResetConfirmView,
+                                       PasswordResetDoneView,
+                                       PasswordResetView)
+from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),

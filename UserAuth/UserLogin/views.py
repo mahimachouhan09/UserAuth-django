@@ -1,16 +1,16 @@
-from allauth.account.forms import ChangePasswordForm, SignupForm, LoginForm
-from django.contrib.auth.models import User
-from django.contrib.auth import authenticate, update_session_auth_hash
-from django.contrib.auth.decorators import login_required
+from allauth.account.forms import ChangePasswordForm, LoginForm, SignupForm
 from django.contrib import messages
+from django.contrib.auth import (authenticate, login, logout,
+                                 update_session_auth_hash)
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import PasswordChangeForm
-from django.contrib.auth import logout, login, authenticate
-from django.shortcuts import (
-    render, redirect, HttpResponse, HttpResponseRedirect)
+from django.contrib.auth.models import User
+from django.shortcuts import (HttpResponse, HttpResponseRedirect, redirect,
+                              render)
 from django.urls import reverse
-from .forms import (
-    CustomSignupForm, LoginForm, ChangePasswordForm,
-    UpdateProfileForm, MyCustomLoginForm)
+
+from .forms import (ChangePasswordForm, CustomSignupForm, LoginForm,
+                    MyCustomLoginForm, UpdateProfileForm)
 
 
 def view_login(request):
